@@ -11,7 +11,7 @@ USC Badminton website, created 21 December 2017 by @kelly0501
 **How to change game schedule (via GitHub)** 
 1. Navigate to the uscbadminton.github.io repository on GitHub 
 2. Open "Game Schedule.html"
-3. Find the pencil icon to edit the file
-[Edit game schedule](instructional/game_schedule3.png)
-4. Find the `<table>` tag and its corresponding `<\table>` in the code editor.
-[Schedule table tag](instructional/game_schedule4.png)
+3. Find the pencil icon to edit the file  
+![Edit game schedule](instructional/game_schedule3.png)
+4. Find the `<table>` tag and its corresponding `<\table>` in the code editor  
+![Schedule table tag](instructional/game_schedule4.png)
