@@ -4,36 +4,72 @@
 		<title>USC Badminton Gallery</title>
 		<style>
 			body {
-				color: rgb(153,0,0);
+				color: #990000;
 				background-color: white;
 				font-family: "Helvetica", sans-serif;
 				margin-left: 10%;
 				margin-right: 10%;
 			}
-			#logo {
-				color: rgb(153,0,0); 
+			#logo_text {
+				color: #990000; 
 				background-color: white; 
 				font-family: "Helvetica", sans-serif; 
 				font-size: 40px;
+				text-align: center;
+			}
+			#logo_img {
+				display: block;
+				margin: auto;
+				width:252px; 
+				height:205px;
 			}
 			p {
 				color: black;
+			}
+			/* Making page navigation not look like a table of links */
+			#page_nav {
+				list-style-type: none;
+				margin-left: -10%;
+				margin-right: -10%;
+				padding: 10px;
+				background-color: #990000;
+				position: fixed;
+				top: 0px;
+				width: 100%
+			}
+			.pageNav_item {
+				float: left; /* resizing to align left */
+			}
+			.pageNav_item a {
+				display: block;
+				padding: 8px;
+				color: white; /*white font on navigation bar */
+				text-decoration: none;
+			}
+			/* change page_link changes to gold when user hovers */
+			.pageNav_item a:hover {
+				background-color: #ffcc00;
 			}
 		</style>
 	</head>
 
 	<body>
-		<center>
-			<h1>USC Badminton</h1>
-			<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" style="width:252px;height:205px;">
-		</center>
+<!-- page navigation bar -->
+		<!-- reference for help: https://www.w3schools.com/css/css_navbar.asp -->
+		<ul id="page_nav">
+			<li class="pageNav_item"><a href="index.html">Home</a></li>
+			<li class="pageNav_item"><a href="Contact.html">Contact</a></li>
+			<li class="pageNav_item"><a href="Game Schedule.html">Schedule</a></li>
+			<li class="pageNav_item"><a href="Gallery.html">Gallery</a> </h5></li>
+		</ul>
+
+		<!-- logo header -->
+		<h1 id="logo_text">USC Badminton</h1>
+		<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" id="logo_img">
 
 		<h1>USC Badminton Gallery</h1>
 
 		<h2>Pictures of USC Badminton Club</h2>
-
-		<!-- page navigation -->
-		<h5 style="color: rgb(153,0,0);"> <a href="index.html">Home</a> <a href="Contact.html">Contact</a> <a href="Game Schedule.html">Schedule</a> <a href="Gallery.html">Gallery</a> </h5>
 
 		<p style="font-size:75%; text-align:center;"><a href="Mail Signup.html">Subscribe to our mailing list!</a></p>
 		<p style="font-size:75%; text-align:center;">I'm hosted with GitHub Pages.</p>

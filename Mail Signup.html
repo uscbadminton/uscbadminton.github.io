@@ -11,6 +11,19 @@
 				margin-left: 10%;
 				margin-right: 10%;
 			}
+			#logo_text {
+				color: #990000; 
+				background-color: white; 
+				font-family: "Helvetica", sans-serif; 
+				font-size: 40px;
+				text-align: center;
+			}
+			#logo_img {
+				display: block;
+				margin: auto;
+				width:252px; 
+				height:205px;
+			}
 			#mc_embed_signup {
 				background: #fff; 
 				clear: left; 
@@ -34,7 +47,7 @@
 				background-color: #990000;
 				position: fixed;
 				top: 0px;
-				width: 100%;
+				width: 100%
 			}
 			.pageNav_item {
 				float: left; /* resizing to align left */
@@ -47,19 +60,12 @@
 			}
 			/* change page_link changes to gold when user hovers */
 			.pageNav_item a:hover {
-				background-color: #990000;
-				font-color: #ffcc00;
+				background-color: #ffcc00;
 			}
 		</style>
 	</head>
 
 	<body>
-		<!-- Logo header -->
-		<center>
-			<h1>USC Badminton</h1>
-			<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" style="width:252px; height:205px;">
-		</center>
-
 		<!-- page navigation bar -->
 		<!-- reference for help: https://www.w3schools.com/css/css_navbar.asp -->
 		<ul id="page_nav">
@@ -68,9 +74,10 @@
 			<li class="pageNav_item"><a href="Game Schedule.html">Schedule</a></li>
 			<li class="pageNav_item"><a href="Gallery.html">Gallery</a> </h5></li>
 		</ul>
-		<!-- commenting out simple HTML page navigation
-		<h5 style="color: rgb(153,0,0);"><a href="index.html">Home</a> <a href="Contact.html">Contact</a> <a href="Game Schedule.html">Schedule</a> <a href="Gallery.html">Gallery</a> </h5>
-		-->
+
+		<!-- logo header -->
+		<h1 id="logo_text">USC Badminton</h1>
+		<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" id="logo_img">
 
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">
