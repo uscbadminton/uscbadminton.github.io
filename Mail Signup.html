@@ -5,7 +5,7 @@
 		<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 		<style typ="text/css">
 			body {
-				color: rgb(153,0,0); 
+				color: #990000; 
 				background-color: white; 
 				font-family: "Helvetica", sans-serif;
 				margin-left: 10%;
@@ -25,6 +25,25 @@
 				text-align: left; 
 				padding: 0px 0px 0px 0px;
 			}
+			/* Making page navigation not look like a table of links */
+			#page_nav {
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;
+			}
+			.pageNav_item {
+				font-color: rgb(0,0,0); /* white font on navigation bar */
+				float: left; /* resizing to align left */
+			}
+			.page_link {
+				display: block;
+				padding: 8px;
+				background-color: #990000); /*red background on navigation bar */
+			}
+			/* change page_link changes to gold when user hovers */
+			.page_link:hover {
+				font-color: #ffcc00;
+			}
 		</style>
 	</head>
 
@@ -35,8 +54,17 @@
 			<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" style="width:252px; height:205px;">
 		</center>
 
-		<!-- page navigation -->
+		<!-- page navigation bar -->
+		<!-- reference for help: https://www.w3schools.com/css/css_navbar.asp -->
+		<ul id="page_nav">
+			<li class="pageNav_item"><a href="index.html" class="page_link">Home</a></li>
+			<li class="pageNav_item"><a href="Contact.html" class="page_link">Contact</a></li>
+			<li class="pageNav_item"><a href="Game Schedule.html" class="page_link">Schedule</a></li>
+			<li class="pageNav_item"><a href="Gallery.html" class="page_link">Gallery</a> </h5></li>
+		</ul>
+		<!-- commenting out simple HTML page navigation
 		<h5 style="color: rgb(153,0,0);"><a href="index.html">Home</a> <a href="Contact.html">Contact</a> <a href="Game Schedule.html">Schedule</a> <a href="Gallery.html">Gallery</a> </h5>
+		-->
 
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">
