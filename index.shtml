@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>USC Badminton Home</title>
+		
+		<!-- local external CSS style -->
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<!--#include file="page_navigation.html" -->
+
+		<!-- logo header -->
+		<h1 id="logo_text">USC Badminton</h1>
+		<img src="USC_Badminton_Logo_2016.png" alt="University of Southern California Badminton Club Logo" id="logo_img">
+
+		<h2>Welcome to University of Southern California Badminton Club</h2>
+
+		<h3>About Us</h3>
+		<p>USC Badminton Club is open to players of all levels! We offer both team and club options to USC students. The team is for players who want to go out and compete against other schools, while club consists of those who just want to come to practice to play recreationally and hit for fun. </p>
+
+		<h3>Practice Schedule for Spring 2018</h3>
+		<p>
+			<strong>Location:</strong> PED 210 South Gym <br>
+			<strong>Tuesdays & Thursdays:</strong> 6:00pm - 9:00pm <br>
+			<strong>Club Dues:</strong> $30/semester ($55 for the year) <br>
+			<strong>Team Dues:</strong> $40/semester ($75 for the year) <br>
+			Practice space and times will be shared among our club and team members.
+		</p>
+
+		<p style="font-size:75%; text-align:center;"><a href="Mail Signup.html">Subscribe to our mailing list!</a></p>
+		<p style="font-size:75%; text-align:center;">I'm hosted with GitHub Pages.</p>
+
+		<!-- JavaScript goes here -->
+		<script>
+
+		</script>
+	</body>
+</html>
