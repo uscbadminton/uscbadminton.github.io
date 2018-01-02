@@ -18,7 +18,7 @@
 
 		<h2>Pictures of USC Badminton Club</h2>
 
-		<p style="font-size:75%; text-align:center;"><a href="Mail Signup.html">Subscribe to our mailing list!</a></p>
+		<p style="font-size:75%; text-align:center;"><a href="mail_signup.shtml">Subscribe to our mailing list!</a></p>
 		<p style="font-size:75%; text-align:center;">I'm hosted with GitHub Pages.</p>
 
 		<!-- JavaScript goes here -->
