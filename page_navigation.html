@@ -3,38 +3,9 @@ page navigation bar
 Reference for help: https://www.w3schools.com/css/css_navbar.asp 
 Since this is included in other files, it doesn't need complete HTML structure
 -->
-<style>
-	/* Making page navigation not look like a table of links */
-	#page_nav {
-	  list-style-type: none;
-	  margin-left: -10%;
-	  margin-right: -10%;
-	  padding: 0px;
-	  background-color: #990000;
-	  position: fixed;
-	  z-index: 1;
-	  width: 100%
-	}
 
-	.pageNav_item {
-	  float: left; /* resizing to align left */
-	}
-
-	.pageNav_item a {
-	  display: block;
-	  padding: 15px;
-	  color: white; /*white font on navigation bar */
-	  text-decoration: none;
-	  text-transform: uppercase;
-	  font-weight: bolder;
-	}
-
-	/* page_link font color changes to gold when user hovers */
-	.pageNav_item a:hover {
-	  color: #ffcc00;
-	  background-color: #800000;
-	}
-</style>
+<!-- local external CSS style -->
+<link href="style.css" rel="stylesheet" type="text/css">
 
 <ul id="page_nav">
 	<li class="pageNav_item"><a href="index.html">Home</a></li>
