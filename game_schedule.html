@@ -5,6 +5,9 @@
 
 		<!-- local external CSS style -->
 		<link href="style.css" rel="stylesheet" type="text/css">
+
+		<!-- include external w3 library -->
+		<script src="https://www.w3schools.com/lib/w3.js"></script> 
 		
 		<style>
 			table {
@@ -28,8 +31,7 @@
 
 	<body>
 		<!-- navigation bar -->
-		<!-- text between object tags is alternate text -->
-		<object data="page_navigation.html">Navigation Bar</object> 
+		<div w3-include-html="page_navigation.html"></div>
 
 		<!-- logo header -->
 		<h1 id="logo_text">USC Badminton</h1>
@@ -72,12 +74,13 @@
 		  	<td>UC San Diego</td>
 		</table>
 		
-		<p style="font-size:75%; text-align:center;"><a href="Mail Signup.html">Subscribe to our mailing list!</a></p>
+		<p style="font-size:75%; text-align:center;"><a href="mail_signup.html">Subscribe to our mailing list!</a></p>
 		<p style="font-size:75%; text-align:center;">I'm hosted with GitHub Pages.</p>
 
 		<!-- JavaScript goes here -->
 		<script>
-
+			// call w3 JavaScript library for navigation bar
+			w3.includeHTML();
 		</script>
 	</body>
 </html>
