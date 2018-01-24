@@ -3,6 +3,9 @@ USC Badminton website, created 21 December 2017 by @kelly0501
 
 **Features to Implement**
 - Add access to database in order for members to reserve courts
+- 15 min timer on courts
+- Special case for challenge court signups
+- Can't signup if already on waitlist/on court
 - Allow people to add themselves to MailChimp mailing list (core feature implemented 28 December 2017 using MailChimp signup form editor)
 - Add instructional section so that future club officers can easily change information
 - Clicking the logo header to return to home
