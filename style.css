@@ -11,6 +11,10 @@ p {
   color: black;
 }
 
+table, th, td {
+    border: 2px solid black;
+}
+
 #logo_text {
   display: block;
   color: #990000; 
