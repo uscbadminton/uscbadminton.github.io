@@ -34,8 +34,19 @@ table {
   height:205px;
 }
 
-/* Making page navigation not look like a table of links */
 #page_nav {
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+  margin: 0;
+  position: relative;
+}
+
+/* Making page navigation not look like a table of links */
+/* #page_nav {
   list-style-type: none;
   margin-left: -10%;
   padding: 0px;
@@ -44,7 +55,8 @@ table {
   top: 0;
   z-index: 1;
   width: 100%;
-} 
+  display: block;
+} */
 
 .pageNav_item {
   float: left; /* resizing to align left */
