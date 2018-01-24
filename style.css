@@ -32,7 +32,7 @@ table, th, td {
 }
 
 /* Making page navigation not look like a table of links */
-/* #page_nav {
+#page_nav {
   list-style-type: none;
   margin-left: -10%;
   padding: 0px;
@@ -41,17 +41,7 @@ table, th, td {
   top: 0;
   z-index: 1;
   width: 100%;
-} */
-#page_nav {
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%
-  height: 50px;
-  background-color: #990000;
-  margin: 0;
-  position: relative;
-}
+} 
 
 .pageNav_item {
   float: left; /* resizing to align left */
