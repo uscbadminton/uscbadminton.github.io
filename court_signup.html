@@ -20,7 +20,25 @@
 
 		<h1>Reserve A Court</h1>
 
-		<table>
+		<form name="CourtSignup" method="POST" action="CourtWaitlist" id="courtForm">
+			<div id="textField">
+				<div> USC ID NUMBER <input type="text" name="idNum" /> </div>
+				<div> USC NET ID <input type="text" name="netID" value="USC email username" /> </div>
+			</div>
+
+			<div id= "courtOptions"> 
+				SIGN UP FOR:
+				<div><input type="radio" name="court" value="1"> Court 1</input> </div>
+				<div><input type="radio" name="court" value="2"> Court 2</input> </div>
+				<div><input type="radio" name="court" value="3"> Court 3</input> </div>
+				<div><input type="radio" name="court" value="4"> Court 4</input> </div>
+				<div><input type="radio" name="court" value="5"> Court 5</input> </div>
+				<div><input type="radio" name="court" value="6"> Court 6</input> </div>
+			</div>
+			<a href="#signupFAQ">How do I find my ID number and Net ID?</a>
+		</form>
+
+		<table style="margin-bottom: 30px">
 			<tr>
 				<th>Court 1</th>
 				<th>Court 2</th> 
@@ -67,10 +85,7 @@
 				<td>(waitlist)</td>
 			</tr>
 		</table>
-		<br />
-		<br />
-		<br />
-		<br />
+
 		<table>
 			<tr>
 				<th>Court 4</th>
@@ -119,20 +134,15 @@
 			</tr>
 		</table>
 
-		<form name="CourtSignup" method="POST" action="CourtWaitlist" id="courtForm">
-			USC ID Number <input type="text" name="idNum" /> <br />
-			USC NetID <input type="text" name="netID" value="USC email username" /> <br />
-			Sign-up For: <br />
-			<input type="radio" name="court" value="1"> Court 1</input> <br />
-			<input type="radio" name="court" value="2"> Court 2</input> <br />
-			<input type="radio" name="court" value="3"> Court 3</input> <br />
-			<input type="radio" name="court" value="4"> Court 4</input> <br />
-			<input type="radio" name="court" value="5"> Court 5</input> <br />
-			<input type="radio" name="court" value="6"> Court 6</input> <br />
-		</form>
+		<a name="signupFAQ">
+			<h6>What is my USC ID number?</h6>
+			<p>Your USC ID number is your USC student ID</p>
+			<h6>What is my USC NetID?</h6>
+			<p>Your USC NetID is your USC email username. If your email address is ttrojan@usc.edu, your USC NetID is ttrojan</p>
+		</a>
 
-		<p style="font-size:75%; text-align:center;"><a href="mail_signup.html">Subscribe to our mailing list!</a></p>
-		<p style="font-size:75%; text-align:center;">I'm hosted with GitHub Pages.</p>
+		<p style="font-size:75%; text-align:center;"><a href="mail_signup.html">Subscribe to our mailing list!</a> <br />
+		I'm hosted with GitHub Pages.</p>
 
 		<!-- JavaScript goes here -->
 		<script>

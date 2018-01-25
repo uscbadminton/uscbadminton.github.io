@@ -35,6 +35,7 @@ table {
 }
 
 #page_nav {
+  list-style-type: none;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -75,4 +76,33 @@ table {
 .pageNav_item a:hover {
   color: #ffcc00;
   background-color: #800000;
+}
+
+#courtForm {
+  text-align: center;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 15px 30px 10px 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#courtForm a {
+  font-size: x-small;
+  color: #990000;
+}
+
+#textField {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+#courtOptions {
+  display: flex;
+  justify-content: space-between;
+}
+
+#courtOptions div {
+  font-weight: normal;
 }
