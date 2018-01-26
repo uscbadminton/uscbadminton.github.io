@@ -84,7 +84,7 @@ table {
   border-style: solid;
   border-radius: 15px;
   padding: 15px 30px 10px 30px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   font-weight: bold;
 }
 
@@ -123,19 +123,21 @@ table {
 }
 
 .accordion {
-  cursor: pointer;
-  color: #990000;
   background-color: white;
+  color: #990000;
+  cursor: pointer;
+  padding-bottom: 10px;
+  width: 100%;
   border: none;
+  text-align: center;
+  text-decoration: underline;
   outline: none;
-  transition: 0.3s;
-  margin-bottom: 30px;
+  font-size: x-small;
+  transition: 0.4s;
 }
 
 .panel {
-  text-align: left;
-  padding: 0 18px;
-  display: none;
+  background-color: white;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;
@@ -145,9 +147,12 @@ table {
   font-weight: normal;
   font-size: 10px;
   line-height: 0;
+  margin-top: -12px;
+  margin-bottom: 25px;
 }
 
 .panel h6 {
+  margin-top: 5px;
   font-size: 12px;
   line-height: 0;
 }
