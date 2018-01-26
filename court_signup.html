@@ -6,9 +6,6 @@
 		<!-- local external CSS style -->
 		<link href="style.css" rel="stylesheet" type="text/css">
 
-		<!-- include signup FAQ collapsible panel JavaScript file -->
-		<script src="signup_faq.js"></script>
-
 		<!-- include external w3 library -->
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
@@ -26,7 +23,7 @@
 		<form name="CourtSignup" method="POST" action="CourtWaitlist" id="courtForm">
 			<div id="textField">
 				<div> USC ID NUMBER <input type="text" name="idNum" /> </div>
-				<div> USC NET ID <input type="text" name="netID" value="USC email username" /> </div>
+				<div> USC NET ID <input type="text" name="netID" /> </div>
 			</div>
 
 			<div id= "courtOptions"> 
@@ -38,15 +35,17 @@
 				<div><input type="radio" name="court" value="5"> Court 5</input> </div>
 				<div><input type="radio" name="court" value="6"> Court 6</input> </div>
 			</div>
-			<input type="submit" name="submit" value="I want to play!" /> <br />
-			<button class="accordion">How do I find my ID number and Net ID?</button>
-			<div class="panel">
-				<h6>What is my USC ID number?</h6>
-				<p>Your USC ID number is your USC student ID</p>
-				<h6>What is my USC NetID?</h6>
-				<p>Your USC NetID is your USC email username. If your email address is ttrojan@usc.edu, your USC NetID is ttrojan</p>
-			</div>
+
+			<div id="submitButton"><input type="submit" name="submit" value="I WANT TO PLAY!" /> <br /> </div>
 		</form>
+
+		<button class="accordion">How do I find my ID number and Net ID?</button>
+		<div class="panel">
+			<h6>What is my USC ID number?</h6>
+			<p>Your USC ID number is your USC student ID</p>
+			<h6>What is my USC NetID?</h6>
+			<p>Your USC NetID is your USC email username. If your email address is ttrojan@usc.edu, your USC NetID is ttrojan</p>
+		</div>
 
 		<table style="margin-bottom: 30px">
 			<tr>
@@ -152,6 +151,33 @@
 			// call w3 JavaScript library for navigation bar
 			w3.includeHTML();
 
+			// collapsible signup FAQ
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+
+			for (i=0; i < acc.length; i++) {
+				// takes in a click action and defines a function
+				acc[i].addEventListener("click", function() {
+
+					this.classList.toggle("active");
+
+					// toggle between hiding and showing the active panel
+					var panel = this.nextElementSibling;
+					if (panel.style.maxHeight) {
+						panel.style.maxHeight = null;
+					}
+					else {
+						panel.style.maxHeight = panel.scrollHeight + "px";
+					}
+					/* if (panel.style.display === "block") {
+						panel.style.display = "none";
+					}
+					else {
+						panel.style.display = "block";
+					} */
+				});
+			}
 		</script>
+
 	</body>
 </html>

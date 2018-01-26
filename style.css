@@ -84,7 +84,7 @@ table {
   border-style: solid;
   border-radius: 15px;
   padding: 15px 30px 10px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
@@ -108,12 +108,28 @@ table {
   font-weight: normal;
 }
 
+#submitButton input {
+  background-color: #990000;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+}
+
+#submitButton input:hover {
+  color: #ffcc00;
+  background-color: #800000;
+}
+
 .accordion {
+  cursor: pointer;
   color: #990000;
   background-color: white;
   border: none;
   outline: none;
   transition: 0.3s;
+  margin-bottom: 30px;
 }
 
 .panel {
@@ -121,6 +137,8 @@ table {
   padding: 0 18px;
   display: none;
   overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
 
 .panel p {
