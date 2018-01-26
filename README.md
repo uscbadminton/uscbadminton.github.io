@@ -19,8 +19,16 @@ USC Badminton website, created 21 December 2017 by @kelly0501
 **How to change logo**  
 **How to change game schedule (via GitHub)** 
 1. Navigate to the uscbadminton.github.io repository on GitHub 
-2. Open "Game Schedule.html"
+2. Open "game_schedule.html"
 3. Find the pencil icon to edit the file  
 ![Edit game schedule](instructional/game_schedule3.png)
 4. Find the `<table>` tag and its corresponding `<\table>` in the code editor  
 ![Schedule table tag](instructional/game_schedule4.png)
+
+**Moving data between Google Sheets and Firebase (via `firebase-import`)**
+1. On your Google Sheet, go to File > Download As... > Comma-Separated Values (.csv)
+2. sfsd
+
+**Moving data between Google Sheets and Firebase (via GoogleScripts)**
+1. Follow [this tutorial](https://www.sohamkamani.com/blog/2017/03/09/sync-data-between-google-sheets-and-firebase/)
+
