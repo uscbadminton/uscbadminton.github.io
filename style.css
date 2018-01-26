@@ -88,9 +88,8 @@ table {
   font-weight: bold;
 }
 
-#courtForm a {
-  font-size: x-small;
-  color: #990000;
+#courtForm input {
+  margin-bottom: 10px
 }
 
 #textField {
