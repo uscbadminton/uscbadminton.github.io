@@ -138,7 +138,8 @@ table {
   transition: max-height 0.2s ease-out;
 }
 
-.panel p {
+.panel p, .panel li {
+  color: black;
   font-weight: normal;
   font-size: 10px;
   line-height: 0;
@@ -150,4 +151,11 @@ table {
   margin-top: 5px;
   font-size: 12px;
   line-height: 0;
+}
+
+.panel p#headerNote {
+  font-size: 10px;
+  line-height: 0;
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
