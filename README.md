@@ -1,5 +1,5 @@
 # uscbadminton.github.io
-USC Badminton website, created 21 December 2017 by @kelly0501
+USC Badminton website, created 21 December 2017 by @kelly0501 and built from scratch.
 
 **Features to Implement**
 - Add access to database in order for members to reserve courts
@@ -30,6 +30,6 @@ USC Badminton website, created 21 December 2017 by @kelly0501
 1. On your Google Sheet, go to File > Download As... > Comma-Separated Values (.csv)
 2. sfsd
 
-**Moving data between Google Sheets and Firebase (via GoogleScripts)**
+**Moving data between Google Sheets and Firebase (via GoogleScript Sync)**
 1. Follow [this tutorial](https://www.sohamkamani.com/blog/2017/03/09/sync-data-between-google-sheets-and-firebase/)
 
