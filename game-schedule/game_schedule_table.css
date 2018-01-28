@@ -1,0 +1,17 @@
+/* formatting the table on the game_schedule page */
+table {
+  font-family: "Helvetica", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
