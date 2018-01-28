@@ -17,7 +17,7 @@ for (i=0; i < acc.length; i++) {
 			panel.style.maxHeight = panel.scrollHeight + "px";
 		}
 		/* 
-		This commented code will made the panel dropdown WITHOUT a transition
+		This commented code will make the panel dropdown WITHOUT a transition
 		
 		if (panel.style.display === "block") {
 			panel.style.display = "none";

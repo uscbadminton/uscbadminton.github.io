@@ -1,0 +1,15 @@
+#mc_embed_signup {
+  background: #fff; 
+  clear: left; 
+  font: 14px Helvetica, Arial, sans-serif; 
+  width: 65%;
+  text-align: left;
+}
+
+/* Gets rid of MailChimp's default padding around signup form */
+#mc_embed_signup form {
+  display: block; 
+  position: relative; 
+  text-align: left; 
+  padding: 0px;
+}
