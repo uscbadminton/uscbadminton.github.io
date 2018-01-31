@@ -16,6 +16,7 @@ USC Badminton website, created 21 December 2017 by @kelly0501 and built from scr
 - ~~navigation bar is static but page body floats above it~~ use `z-index` CSS property
 - ~~"USC Badminton" `id="logo_text"` is floating behind the navigation bar instead of below it when the page loads~~
 - navigation bar needs to extend the entire width
+- limitation of validation through JavaScript however user can disable front-end JavaScript so that they can enter anything they want into fields
 
 **How to change logo**  
 **How to change game schedule (via GitHub)** 
