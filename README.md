@@ -18,6 +18,11 @@ USC Badminton website, created 21 December 2017 by @kelly0501 and built from scr
 - navigation bar needs to extend the entire width
 - limitation of validation through JavaScript however user can disable front-end JavaScript so that they can enter anything they want into fields
 
+**What to Update Every Semester**
+- Practice schedule
+- Game schedule
+- Lyon Center hours
+
 **How to change logo**  
 **How to change game schedule (via GitHub)** 
 1. Navigate to the uscbadminton.github.io repository on GitHub 
