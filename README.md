@@ -3,12 +3,14 @@ USC Badminton website, created 21 December 2017 by @kelly0501 and built from scr
 
 **Features to Implement**
 - Add access to database in order for members to reserve courts
-- 15 min timer on courts
+- 15 min [timer](https://www.w3schools.com/howto/howto_js_countdown.asp) on courts
 - Special case for challenge court signups
 - Can't signup if already on waitlist/on court
 - Allow people to add themselves to MailChimp mailing list (core feature implemented 28 December 2017 using MailChimp signup form editor)
 - Add instructional section so that future club officers can easily change information
-- Clicking the logo header to return to home
+- Clicking the logo header to return to home (use `a href`)
+- Tidy up Contact/[Social Media icons](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+- Can change navbar to `<header>` tag
 
 **Current known issues to fix**  
 - updated 26 January 2018
