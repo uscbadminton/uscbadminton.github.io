@@ -10,6 +10,13 @@
 		<script src="https://www.w3schools.com/lib/w3.js"></script>
 
 		<link href="court-signup/court_signup.css" rel="stylesheet" type="text/css" />
+
+		<!-- Firebase needed libraries -->
+		<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-database.js"></script>
+		<script src="court-signup/firebase_data.js"></script>
 	</head>
 
 	<body>
@@ -154,26 +161,6 @@
 
 		<p style="font-size:75%; text-align:center;"><a href="mail_signup.html">Subscribe to our mailing list!</a> <br />
 		I'm hosted with GitHub Pages.</p>
-
-		<!-- JavaScript goes here -->
-		<!-- Firebase initialization code snippet -->
-		<!-- Include need Firebase services -->
-		<script src="https://www.gstatic.com/firebasejs/4.10.0/firebase.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-app.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-auth.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-database.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-		    apiKey: "AIzaSyBNjJlXJY7VibkQJDh-ltuUOPPY_tCXWVU",
-		    authDomain: "sc-badminton-court-signup.firebaseapp.com",
-		    databaseURL: "https://sc-badminton-court-signup.firebaseio.com",
-		    projectId: "sc-badminton-court-signup",
-		    storageBucket: "sc-badminton-court-signup.appspot.com",
-		    messagingSenderId: "685908240401"
-		  };
-		  firebase.initializeApp(config);
-		</script>
 
 		<script>
 			// call w3 JavaScript library for navigation bar
